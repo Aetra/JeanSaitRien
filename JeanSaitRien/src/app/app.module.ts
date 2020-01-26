@@ -6,6 +6,8 @@ import { AppComponent } from "./app.component";
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
 import { TestComponent } from './test/test.component';
+import { TimesupComponent } from './timesup/timesup.component';
+import { SettingsComponent } from './timesup/settings/settings.component';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -25,7 +27,9 @@ import { TestComponent } from './test/test.component';
         AppComponent,
         ItemsComponent,
         ItemDetailComponent,
-        TestComponent
+        TestComponent,
+        TimesupComponent,
+        SettingsComponent
     ],
     providers: [],
     schemas: [
